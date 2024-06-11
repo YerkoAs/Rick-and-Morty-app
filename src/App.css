@@ -1,0 +1,99 @@
+/* ---- Reset ---- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+ul{
+  list-style: none;
+}
+
+input,
+button{
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+}
+
+button{
+  border: none;
+}
+
+.app{
+  background-color: #05292E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.app-loading{
+  margin-top: 80px;
+}
+
+.app-banner{
+  height: 200px;
+  width: 100%;
+  min-width: 450px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 25px #79B724;
+  border: none;
+}
+
+.app-banner-img{
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.app-form{
+display: flex;
+justify-content: center;
+margin: 10px 0 15px;
+}
+
+.app-form-input{
+  border-radius: 7px 0 0 7px;
+  border: none;
+  width: 200px;
+  text-align: left;
+  padding: 12px;
+}
+
+.app-form-button{
+  border-radius: 0 7px 7px 0;
+  padding: 5px 10px;
+  background-color: #71A821;
+  color: white;
+} 
+
+.app-error{
+  margin-top: 40px;
+}
+
+.app-container{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px ;
+}

@@ -1,0 +1,46 @@
+.location{
+    
+    width: 90%;
+    max-width: max-content;
+    background-color: #072226;
+    border: 1px solid rgba(128, 128, 128, 0.639);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: box-shadow .5s;
+    
+} 
+
+.location:hover{
+    box-shadow: 0 6px 10px #79B724;
+    transition: box-shadow .5s;
+}
+
+.location-name{
+    color: #79B724;
+    text-align: center;
+}
+
+.location-list{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.location-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    gap: 5px;
+}
+
+.location-item span :last-child{
+    color: #999;
+}
